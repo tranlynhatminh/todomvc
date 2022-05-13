@@ -26,7 +26,7 @@ const TodoInput = (props) => {
                 onKeyDown={(e) => handelKeyPress(e)} 
                 onChange={(e) => setText(e.target.value)}
                 checked={isCheckAll}
-                placeholder="Add your todo"
+                placeholder="Add your task"
             />
     )
 }
