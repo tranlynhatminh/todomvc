@@ -19,7 +19,8 @@ const TodoInput = (props) => {
     }
 
     return (
-            
+        <div className="header">
+            <h1>todo</h1>
             <input 
                 className="new-todo"
                 value={text}
@@ -28,6 +29,7 @@ const TodoInput = (props) => {
                 checked={isCheckAll}
                 placeholder="Add your task"
             />
+        </div>
     )
 }
 
